@@ -35,13 +35,13 @@ SancharSathi is an AI-powered assistant for Indian startups that helps simplify 
 
 | Feature | Usage |
 |--------|------|
-| **Delta Lake / Unity Catalog** | Medallion architecture in `startup_hackathon` for managing compliance data and audit logs. |
-| **Unity Catalog Volumes** | High-speed storage for vector indices, metadata, and JSON snapshots at `/Volumes` to improve app load time. |
-| **Databricks Workflows (Jobs)** | Automated multi-task DAG to handle setup, task graph creation, PDF processing, and web scraping pipelines. |
-| **Databricks SDK** | Uses StatementExecutionAPI via WorkspaceClient for lightweight, cluster-free data access and SQL execution. |
-| **Serverless SQL Warehouse** | Provides low-latency SQL queries for powering the interactive Streamlit dashboard. |
-| **Change Data Feed (CDF)** | Enables incremental data ingestion and efficient “delta-only” updates for the RAG system. |
-| **Databricks Apps** | Streamlit-based deployment with secure workspace integration using auto-injected service principal tokens. |
+| **Delta Lake / Unity Catalog** | 3-layer Medallion architecture (Silver/Gold) in `startup_hackathon` for structured compliance data, task graphs, and query logs. |
+| **Unity Catalog Volumes** | High-performance storage for FAISS vector indices, metadata, and JSON snapshots to ensure fast app startup and retrieval. |
+| **Databricks Workflows (Jobs)** | Automated DAG pipelines for data ingestion, PDF processing, embedding generation, task graph creation, and web scraping. |
+| **Databricks SDK + Statement Execution API** | Lightweight, cluster-free SQL execution using WorkspaceClient for low-latency backend communication. |
+| **Serverless SQL Warehouse** | Fast, scalable SQL compute powering compliance checklists, scheme discovery, and analytics queries. |
+| **Change Data Feed (CDF)** | Incremental updates on legal data tables enabling efficient “delta-only” ingestion for the RAG pipeline. |
+| **Databricks Apps (Streamlit)** | Interactive frontend deployed on Databricks with secure authentication and seamless workspace integration. |
 
 
 ## 🧩 Databricks Components Breakdown
