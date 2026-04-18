@@ -27,7 +27,8 @@ SancharSathi is an AI-powered assistant that helps Indian startups understand le
 
 ## 🔴 Full System Architecture
 
-![Uploading mermaid-diagram.png…]()
+<img width="1632" height="1684" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/64c89e2e-7d3e-4199-b300-9b14d224ae89" />
+
 
 ---
 
