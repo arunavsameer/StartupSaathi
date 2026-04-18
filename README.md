@@ -6,7 +6,7 @@
 
 ## 🧠 What it does
 
-SancharSathi is an AI-powered assistant that helps Indian startups understand legal requirements and discover opportunities using a Databricks-based RAG pipeline with automated data ingestion.
+SancharSathi is an AI-powered assistant for Indian startups that helps simplify legal and growth journeys. It provides easy-to-understand compliance checklists, answers legal questions through an AI Q&A system, and helps users discover relevant government schemes and incubation opportunities—all in one place for faster and smarter decision-making.
 
 ---
 
