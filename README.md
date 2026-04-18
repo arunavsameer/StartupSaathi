@@ -31,6 +31,18 @@ SancharSathi is an AI-powered assistant for Indian startups that helps simplify 
 
 
 ---
+# Databricks Features Used
+
+| Feature | Usage |
+|--------|------|
+| **Delta Lake / Unity Catalog** | Medallion architecture (Silver/Gold layers) in `startup_hackathon` for managing compliance data and audit logs. |
+| **Unity Catalog Volumes** | High-speed storage for vector indices, metadata, and JSON snapshots at `/Volumes` to improve app load time. |
+| **Databricks Workflows (Jobs)** | Automated multi-task DAG to handle setup, task graph creation, PDF processing, and web scraping pipelines. |
+| **Databricks SDK** | Uses StatementExecutionAPI via WorkspaceClient for lightweight, cluster-free data access and SQL execution. |
+| **Serverless SQL Warehouse** | Provides low-latency SQL queries for powering the interactive Streamlit dashboard. |
+| **Change Data Feed (CDF)** | Enables incremental data ingestion and efficient “delta-only” updates for the RAG system. |
+| **Databricks Apps** | Streamlit-based deployment with secure workspace integration using auto-injected service principal tokens. |
+
 
 ## 🧩 Databricks Components Breakdown
 
