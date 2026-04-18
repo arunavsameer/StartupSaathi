@@ -1,0 +1,1282 @@
+{
+    "status": "Success",
+    "statusCode": 200,
+    "errorDescription": "",
+    "error": "null",
+    "data": {
+        "summary": {
+            "total": 4638,
+            "query": "",
+            "sortOptions": [
+                {
+                    "id": "multiple_sort",
+                    "label": "Relevance"
+                },
+                {
+                    "id": "schemename-asc",
+                    "label": "Scheme Name (A->Z)"
+                },
+                {
+                    "id": "schemename-desc",
+                    "label": "Scheme Name (Z->A)"
+                }
+            ],
+            "appliedFilters": [],
+            "disabledFilters": []
+        },
+        "facets": [
+            {
+                "identifier": "beneficiaryState",
+                "label": "State",
+                "display": "ComboBoxFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "Gujarat",
+                        "count": 645
+                    },
+                    {
+                        "label": "All",
+                        "count": 612
+                    },
+                    {
+                        "label": "Uttarakhand",
+                        "count": 447
+                    },
+                    {
+                        "label": "Madhya Pradesh",
+                        "count": 290
+                    },
+                    {
+                        "label": "Puducherry",
+                        "count": 271
+                    },
+                    {
+                        "label": "Goa",
+                        "count": 270
+                    },
+                    {
+                        "label": "Haryana",
+                        "count": 247
+                    },
+                    {
+                        "label": "Tamil Nadu",
+                        "count": 236
+                    },
+                    {
+                        "label": "Rajasthan",
+                        "count": 159
+                    },
+                    {
+                        "label": "Bihar",
+                        "count": 114
+                    },
+                    {
+                        "label": "West Bengal",
+                        "count": 110
+                    },
+                    {
+                        "label": "Chhattisgarh",
+                        "count": 108
+                    },
+                    {
+                        "label": "Jharkhand",
+                        "count": 97
+                    },
+                    {
+                        "label": "Meghalaya",
+                        "count": 88
+                    },
+                    {
+                        "label": "Maharashtra",
+                        "count": 85
+                    },
+                    {
+                        "label": "Odisha",
+                        "count": 85
+                    },
+                    {
+                        "label": "Assam",
+                        "count": 83
+                    },
+                    {
+                        "label": "Kerala",
+                        "count": 83
+                    },
+                    {
+                        "label": "Himachal Pradesh",
+                        "count": 65
+                    },
+                    {
+                        "label": "Karnataka",
+                        "count": 57
+                    },
+                    {
+                        "label": "Andhra Pradesh",
+                        "count": 52
+                    },
+                    {
+                        "label": "Delhi",
+                        "count": 48
+                    },
+                    {
+                        "label": "Jammu and Kashmir",
+                        "count": 48
+                    },
+                    {
+                        "label": "Uttar Pradesh",
+                        "count": 47
+                    },
+                    {
+                        "label": "Arunachal Pradesh",
+                        "count": 44
+                    },
+                    {
+                        "label": "Tripura",
+                        "count": 43
+                    },
+                    {
+                        "label": "Dadra & Nagar Haveli and Daman & Diu",
+                        "count": 42
+                    },
+                    {
+                        "label": "Punjab",
+                        "count": 41
+                    },
+                    {
+                        "label": "Manipur",
+                        "count": 33
+                    },
+                    {
+                        "label": "Sikkim",
+                        "count": 28
+                    },
+                    {
+                        "label": "Mizoram",
+                        "count": 24
+                    },
+                    {
+                        "label": "Telangana",
+                        "count": 23
+                    },
+                    {
+                        "label": "Nagaland",
+                        "count": 22
+                    },
+                    {
+                        "label": "Chandigarh",
+                        "count": 20
+                    },
+                    {
+                        "label": "Andaman and Nicobar Islands",
+                        "count": 19
+                    },
+                    {
+                        "label": "Lakshadweep",
+                        "count": 9
+                    }
+                ]
+            },
+            {
+                "identifier": "schemeCategory",
+                "label": "Scheme Category",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "Social welfare & Empowerment",
+                        "count": 1432
+                    },
+                    {
+                        "label": "Education & Learning",
+                        "count": 1081
+                    },
+                    {
+                        "label": "Agriculture,Rural & Environment",
+                        "count": 834
+                    },
+                    {
+                        "label": "Business & Entrepreneurship",
+                        "count": 741
+                    },
+                    {
+                        "label": "Women and Child",
+                        "count": 464
+                    },
+                    {
+                        "label": "Skills & Employment",
+                        "count": 395
+                    },
+                    {
+                        "label": "Banking,Financial Services and Insurance",
+                        "count": 326
+                    },
+                    {
+                        "label": "Health & Wellness",
+                        "count": 287
+                    },
+                    {
+                        "label": "Sports & Culture",
+                        "count": 258
+                    },
+                    {
+                        "label": "Housing & Shelter",
+                        "count": 133
+                    },
+                    {
+                        "label": "Science, IT & Communications",
+                        "count": 109
+                    },
+                    {
+                        "label": "Transport & Infrastructure",
+                        "count": 99
+                    },
+                    {
+                        "label": "Travel & Tourism",
+                        "count": 97
+                    },
+                    {
+                        "label": "Utility & Sanitation",
+                        "count": 58
+                    },
+                    {
+                        "label": "Public Safety,Law & Justice",
+                        "count": 33
+                    }
+                ]
+            },
+            {
+                "identifier": "gender",
+                "label": "Gender",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "All",
+                        "count": 3814
+                    },
+                    {
+                        "label": "Female",
+                        "count": 784
+                    },
+                    {
+                        "label": "Male",
+                        "count": 344
+                    },
+                    {
+                        "label": "Transgender",
+                        "count": 32
+                    }
+                ]
+            },
+            {
+                "identifier": "age-general",
+                "label": "Age",
+                "display": "ComboBoxFacet",
+                "type": "RangeFacet",
+                "entries": [
+                    {
+                        "label": 0,
+                        "count": 665
+                    },
+                    {
+                        "label": 10,
+                        "count": 3771
+                    },
+                    {
+                        "label": 20,
+                        "count": 3775
+                    },
+                    {
+                        "label": 30,
+                        "count": 3684
+                    },
+                    {
+                        "label": 40,
+                        "count": 3521
+                    },
+                    {
+                        "label": 50,
+                        "count": 3254
+                    },
+                    {
+                        "label": 60,
+                        "count": 3031
+                    },
+                    {
+                        "label": 70,
+                        "count": 2005
+                    },
+                    {
+                        "label": 80,
+                        "count": 1929
+                    },
+                    {
+                        "label": 90,
+                        "count": 1881
+                    },
+                    {
+                        "label": 100,
+                        "count": 1831
+                    },
+                    {
+                        "label": 110,
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "identifier": "caste",
+                "label": "Caste",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "All",
+                        "count": 3888
+                    },
+                    {
+                        "label": "Scheduled Caste (SC)",
+                        "count": 382
+                    },
+                    {
+                        "label": "Scheduled Tribe (ST)",
+                        "count": 331
+                    },
+                    {
+                        "label": "Other Backward Class (OBC)",
+                        "count": 183
+                    },
+                    {
+                        "label": "General",
+                        "count": 66
+                    },
+                    {
+                        "label": "Particularly Vulnerable Tribal Group (PVTG)",
+                        "count": 39
+                    },
+                    {
+                        "label": "De-Notified, Nomadic, and Semi-Nomadic (DNT) communities",
+                        "count": 13
+                    }
+                ]
+            },
+            {
+                "identifier": "nodalMinistryName",
+                "label": "Ministry Name",
+                "display": "ComboBoxFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "Ministry Of Social Justice and Empowerment",
+                        "count": 86
+                    },
+                    {
+                        "label": "Ministry of Education",
+                        "count": 83
+                    },
+                    {
+                        "label": "Ministry Of Science And Technology",
+                        "count": 58
+                    },
+                    {
+                        "label": "Ministry Of Agriculture and Farmers Welfare",
+                        "count": 43
+                    },
+                    {
+                        "label": "Ministry Of Commerce And Industry",
+                        "count": 34
+                    },
+                    {
+                        "label": "Ministry Of Micro, Small and Medium Enterprises",
+                        "count": 31
+                    },
+                    {
+                        "label": "Ministry of Electronics and Information Technology",
+                        "count": 22
+                    },
+                    {
+                        "label": "Ministry Of Finance",
+                        "count": 19
+                    },
+                    {
+                        "label": "Ministry Of Textiles",
+                        "count": 18
+                    },
+                    {
+                        "label": "Ministry Of Home Affairs",
+                        "count": 17
+                    },
+                    {
+                        "label": "Ministry Of Health & Family Welfare",
+                        "count": 16
+                    },
+                    {
+                        "label": "Ministry Of Defence",
+                        "count": 15
+                    },
+                    {
+                        "label": "Ministry of Fisheries,Animal Husbandry and Dairying",
+                        "count": 14
+                    },
+                    {
+                        "label": "Ministry Of Culture",
+                        "count": 13
+                    },
+                    {
+                        "label": "Ministry Of Labour and Employment",
+                        "count": 12
+                    },
+                    {
+                        "label": "Ministry Of Minority Affairs",
+                        "count": 11
+                    },
+                    {
+                        "label": "Ministry Of Rural Development",
+                        "count": 11
+                    },
+                    {
+                        "label": "Ministry of Women and Child Development",
+                        "count": 11
+                    },
+                    {
+                        "label": "Ministry Of Ayush",
+                        "count": 10
+                    },
+                    {
+                        "label": "Ministry Of Tribal Affairs",
+                        "count": 10
+                    },
+                    {
+                        "label": "Ministry Of Skill Development And Entrepreneurship",
+                        "count": 9
+                    },
+                    {
+                        "label": "Ministry Of Youth Affairs & Sports",
+                        "count": 8
+                    },
+                    {
+                        "label": "Ministry Of Communication",
+                        "count": 7
+                    },
+                    {
+                        "label": "Ministry Of New and Renewable Energy",
+                        "count": 7
+                    },
+                    {
+                        "label": "Ministry Of Jal Shakti",
+                        "count": 6
+                    },
+                    {
+                        "label": "Ministry Of Tourism",
+                        "count": 6
+                    },
+                    {
+                        "label": "Ministry Of External Affairs",
+                        "count": 5
+                    },
+                    {
+                        "label": "Ministry Of Housing & Urban Affairs",
+                        "count": 5
+                    },
+                    {
+                        "label": "Ministry Of Personnel, Public Grievances And Pensions",
+                        "count": 5
+                    },
+                    {
+                        "label": "Ministry of Ports,Shipping and Waterways",
+                        "count": 4
+                    },
+                    {
+                        "label": "Ministry Of Chemicals And Fertilizers",
+                        "count": 3
+                    },
+                    {
+                        "label": "Ministry Of Law and Justice",
+                        "count": 3
+                    },
+                    {
+                        "label": "Ministry Of Petroleum and Natural Gas",
+                        "count": 3
+                    },
+                    {
+                        "label": "Ministry Of Statistics and Programme Implementation",
+                        "count": 3
+                    },
+                    {
+                        "label": "Ministry Of Steel",
+                        "count": 3
+                    },
+                    {
+                        "label": "Ministry of Corporate Affairs",
+                        "count": 3
+                    },
+                    {
+                        "label": "Ministry of Food Processing Industries",
+                        "count": 3
+                    },
+                    {
+                        "label": "Comptroller And Auditor General Of India",
+                        "count": 2
+                    },
+                    {
+                        "label": "Ministry Of Environment,forests and climate change",
+                        "count": 2
+                    },
+                    {
+                        "label": "Ministry Of Panchayati Raj",
+                        "count": 2
+                    },
+                    {
+                        "label": "Ministry of Heavy Industries",
+                        "count": 2
+                    },
+                    {
+                        "label": "Ministry Of Consumer Affairs, Food And Public Distribution",
+                        "count": 1
+                    },
+                    {
+                        "label": "Ministry Of Development Of North Eastern Region",
+                        "count": 1
+                    },
+                    {
+                        "label": "Ministry Of Earth Sciences",
+                        "count": 1
+                    },
+                    {
+                        "label": "Ministry Of Information And Broadcasting",
+                        "count": 1
+                    },
+                    {
+                        "label": "Ministry Of Mines",
+                        "count": 1
+                    },
+                    {
+                        "label": "Ministry Of Power",
+                        "count": 1
+                    },
+                    {
+                        "label": "Ministry Of Railways",
+                        "count": 1
+                    },
+                    {
+                        "label": "Ministry Of Road Transport & Highways",
+                        "count": 1
+                    },
+                    {
+                        "label": "NITI Aayog (National Institution for Transforming India)",
+                        "count": 1
+                    },
+                    {
+                        "label": "The Lokpal of India",
+                        "count": 1
+                    }
+                ]
+            },
+            {
+                "identifier": "level",
+                "label": "Level",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "State",
+                        "count": 4003
+                    },
+                    {
+                        "label": "Central",
+                        "count": 635
+                    }
+                ]
+            },
+            {
+                "identifier": "residence",
+                "label": "Residence",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "Both",
+                        "count": 4403
+                    },
+                    {
+                        "label": "Rural",
+                        "count": 205
+                    },
+                    {
+                        "label": "Urban",
+                        "count": 41
+                    }
+                ]
+            },
+            {
+                "identifier": "minority",
+                "label": "Minority",
+                "type": "CustomFacet",
+                "display": "SingleCheckBoxFacet",
+                "entries": [
+                    {
+                        "label": "No",
+                        "count": 4571
+                    },
+                    {
+                        "label": "Yes",
+                        "count": 67
+                    }
+                ]
+            },
+            {
+                "identifier": "disability",
+                "label": "Differently Abled",
+                "type": "CustomFacet",
+                "display": "SingleCheckBoxFacet",
+                "entries": [
+                    {
+                        "label": "No",
+                        "count": 4339
+                    },
+                    {
+                        "label": "Yes",
+                        "count": 299
+                    }
+                ]
+            },
+            {
+                "identifier": "benefitTypes",
+                "label": "Benefit Type",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "Cash",
+                        "count": 3227
+                    },
+                    {
+                        "label": "In Kind",
+                        "count": 786
+                    },
+                    {
+                        "label": "Composite",
+                        "count": 625
+                    }
+                ]
+            },
+            {
+                "identifier": "dbtScheme",
+                "label": "DBT Scheme",
+                "type": "CustomFacet",
+                "display": "SingleCheckBoxFacet",
+                "entries": [
+                    {
+                        "label": "No",
+                        "count": 4170
+                    },
+                    {
+                        "label": "Yes",
+                        "count": 468
+                    }
+                ]
+            },
+            {
+                "identifier": "maritalStatus",
+                "label": "Marital Status",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "All",
+                        "count": 4338
+                    },
+                    {
+                        "label": "Never Married",
+                        "count": 143
+                    },
+                    {
+                        "label": "Widowed",
+                        "count": 105
+                    },
+                    {
+                        "label": "Married",
+                        "count": 93
+                    },
+                    {
+                        "label": "Divorced",
+                        "count": 49
+                    },
+                    {
+                        "label": "Separated",
+                        "count": 48
+                    }
+                ]
+            },
+            {
+                "identifier": "disabilityPercentage",
+                "label": "Disability Percentage",
+                "display": "ComboBoxFacet",
+                "type": "RangeFacet",
+                "entries": [
+                    {
+                        "label": 0,
+                        "count": 24
+                    },
+                    {
+                        "label": 10,
+                        "count": 27
+                    },
+                    {
+                        "label": 20,
+                        "count": 31
+                    },
+                    {
+                        "label": 30,
+                        "count": 31
+                    },
+                    {
+                        "label": 40,
+                        "count": 165
+                    },
+                    {
+                        "label": 50,
+                        "count": 170
+                    },
+                    {
+                        "label": 60,
+                        "count": 176
+                    },
+                    {
+                        "label": 70,
+                        "count": 181
+                    },
+                    {
+                        "label": 80,
+                        "count": 193
+                    },
+                    {
+                        "label": 90,
+                        "count": 193
+                    },
+                    {
+                        "label": 100,
+                        "count": 203
+                    }
+                ]
+            },
+            {
+                "identifier": "isBpl",
+                "label": "Below Poverty Line",
+                "type": "CustomFacet",
+                "display": "SingleCheckBoxFacet",
+                "entries": [
+                    {
+                        "label": "No",
+                        "count": 4469
+                    },
+                    {
+                        "label": "Yes",
+                        "count": 169
+                    }
+                ]
+            },
+            {
+                "identifier": "isEconomicDistress",
+                "label": "Economic Distress",
+                "type": "CustomFacet",
+                "display": "SingleCheckBoxFacet",
+                "entries": [
+                    {
+                        "label": "No",
+                        "count": 4592
+                    },
+                    {
+                        "label": "Yes",
+                        "count": 46
+                    }
+                ]
+            },
+            {
+                "identifier": "isGovEmployee",
+                "label": "Government Employee",
+                "type": "CustomFacet",
+                "display": "SingleCheckBoxFacet",
+                "entries": [
+                    {
+                        "label": "No",
+                        "count": 4625
+                    },
+                    {
+                        "label": "Yes",
+                        "count": 13
+                    }
+                ]
+            },
+            {
+                "identifier": "employmentStatus",
+                "label": "Employment Status",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "All",
+                        "count": 3530
+                    },
+                    {
+                        "label": "Employed",
+                        "count": 517
+                    },
+                    {
+                        "label": "Self-Employed/ Entrepreneur",
+                        "count": 419
+                    },
+                    {
+                        "label": "Unemployed",
+                        "count": 172
+                    }
+                ]
+            },
+            {
+                "identifier": "isStudent",
+                "label": "Student",
+                "type": "CustomFacet",
+                "display": "SingleCheckBoxFacet",
+                "entries": [
+                    {
+                        "label": "No",
+                        "count": 4282
+                    },
+                    {
+                        "label": "Yes",
+                        "count": 356
+                    }
+                ]
+            },
+            {
+                "identifier": "occupation",
+                "label": "Occupation",
+                "display": "ComboBoxFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "All",
+                        "count": 390
+                    },
+                    {
+                        "label": "Farmer",
+                        "count": 355
+                    },
+                    {
+                        "label": "Construction Worker",
+                        "count": 270
+                    },
+                    {
+                        "label": "Unorganized Worker",
+                        "count": 191
+                    },
+                    {
+                        "label": "Fishermen",
+                        "count": 115
+                    },
+                    {
+                        "label": "Artists",
+                        "count": 83
+                    },
+                    {
+                        "label": "Artisans, Spinners & Weavers",
+                        "count": 77
+                    },
+                    {
+                        "label": "Student",
+                        "count": 66
+                    },
+                    {
+                        "label": "Organized Worker",
+                        "count": 40
+                    },
+                    {
+                        "label": "Ex Servicemen",
+                        "count": 28
+                    },
+                    {
+                        "label": "Sportsperson",
+                        "count": 28
+                    },
+                    {
+                        "label": "Journalist",
+                        "count": 22
+                    },
+                    {
+                        "label": "Dairy Farmer",
+                        "count": 21
+                    },
+                    {
+                        "label": "Safai Karamchari",
+                        "count": 18
+                    },
+                    {
+                        "label": "Teacher / Faculty",
+                        "count": 14
+                    },
+                    {
+                        "label": "Coir Worker",
+                        "count": 6
+                    },
+                    {
+                        "label": "Street Vendor",
+                        "count": 3
+                    },
+                    {
+                        "label": "Health Worker",
+                        "count": 2
+                    },
+                    {
+                        "label": "Khadi Artisan",
+                        "count": 2
+                    },
+                    {
+                        "label": "Lawyer / Law Graduate / Advocate",
+                        "count": 2
+                    }
+                ]
+            },
+            {
+                "identifier": "applicationMode",
+                "label": "Application Mode",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "Offline",
+                        "count": 2676
+                    },
+                    {
+                        "label": "Online",
+                        "count": 2271
+                    },
+                    {
+                        "label": "Online - via CSC",
+                        "count": 161
+                    }
+                ]
+            },
+            {
+                "identifier": "schemeType",
+                "label": "Scheme Type",
+                "display": "ListFacet",
+                "type": "RefinementSelectFacet",
+                "entries": [
+                    {
+                        "label": "Central Sector Scheme",
+                        "count": 459
+                    },
+                    {
+                        "label": "Centrally Sponsored Scheme",
+                        "count": 108
+                    }
+                ]
+            }
+        ],
+        "hits": {
+            "items": [
+                {
+                    "id": "naGzF5gBXu-iUKXqInRl",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "POST-DIS",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+                        "schemeCategory": [
+                            "Education & Learning",
+                            "Social welfare & Empowerment"
+                        ],
+                        "schemeName": "Post Matric Scholarship Students With Disabilities",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "post-dis",
+                        "briefDescription": "A scholarship scheme by DoEPwD for students with disabilities pursuing a post-matric qualification from UGC/AICTE recognized universities, i.e. students of Class 11th, Class 12th, including Polytechnics, Post-Matriculation Diploma/Certificates and Bachelor’s/Master’s Degree/Diploma in India.",
+                        "tags": [
+                            "Persons With Disability",
+                            "Post-Matric",
+                            "Student",
+                            "Scholarship",
+                            "Diploma",
+                            "Degree",
+                            "Graduation",
+                            "Post-Graduation"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "msazF5gB0AGc0F0iHTN4",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "SL",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Skill Development And Entrepreneurship",
+                        "schemeCategory": [
+                            "Skills & Employment",
+                            "Banking,Financial Services and Insurance"
+                        ],
+                        "schemeName": "Skill Loan Scheme",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "sl",
+                        "briefDescription": "A Skill loan scheme by Ministry of Skill Development and Entrepreneurship to provide loan upto Rs. 1,50,000 to student who has secured admission in a course run by Industrial Training Institutes (ITIs), Polytechnics or in a school recognized by Central or State education Boards or in a college affil",
+                        "tags": [
+                            "Skill Development",
+                            "Student",
+                            "Industrial Training Institutes (ITIs)",
+                            "Polytechnics"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "haGzF5gBXu-iUKXqH3SS",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "NOS-SWD",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Social Justice and Empowerment",
+                        "schemeCategory": [
+                            "Education & Learning",
+                            "Social welfare & Empowerment"
+                        ],
+                        "schemeName": "National Overseas Scholarship For Students With Disabilities",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "nos-swd",
+                        "briefDescription": "A scholarship scheme by the Ministry of Social Justice & Empowerment for regular, full-time students with disabilities to obtain higher education viz., Master's degree, or Ph.D. courses from foreign universities, in one of the specified fields of study.",
+                        "tags": [
+                            "Scholarship",
+                            "Student",
+                            "Person With Disability",
+                            "Higher Education",
+                            "Degree",
+                            "Empowerment",
+                            "PhD",
+                            "Post-Graduation"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "VxezF5gB5uF80_MGIY8p",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "RMEWF",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Defence",
+                        "schemeCategory": [
+                            "Health & Wellness"
+                        ],
+                        "schemeName": "RMEWF-Financial Assistance For Medical Treatment Of Ex-Servicemen",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "rmewf",
+                        "briefDescription": "A scheme to provide financial assistance to a non-pensioner Ex-Servicemen/widows of ranks up to Havildar/equivalent to meet routine medical expenses.\n",
+                        "tags": [
+                            "Ex-Servicemen",
+                            "Health Checkup",
+                            "Medical Expenses",
+                            "Health Treatment",
+                            "Widow Of Ex-Servicemen"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "LBezF5gB5uF80_MGGY81",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "SUPI",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Finance",
+                        "schemeCategory": [
+                            "Business & Entrepreneurship",
+                            "Banking,Financial Services and Insurance",
+                            "Social welfare & Empowerment"
+                        ],
+                        "schemeName": "Stand-Up India",
+                        "schemeCloseDate": "2025-03-31",
+                        "priority": 1,
+                        "slug": "sui",
+                        "briefDescription": "A scheme by Ministry of Finance for financing SC/ST and  Women Entrepreneurs by facilitating bank loans for setting up a greenfield project  Enterprise in manufacturing, services, trading sector and activities allied to agriculture.",
+                        "tags": [
+                            "Loan",
+                            "Entrepreneur",
+                            "Finance",
+                            "Business"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "TRezF5gB5uF80_MGII9K",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "PMSBY",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Finance",
+                        "schemeCategory": [
+                            "Banking,Financial Services and Insurance"
+                        ],
+                        "schemeName": "Pradhan Mantri Suraksha Bima Yojana",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "pmsby",
+                        "briefDescription": "An Accident Insurance Scheme offering accidental death and disability cover for death or disability on account of an accident.",
+                        "tags": [
+                            "Bank Account Holders",
+                            "Insurance",
+                            "Accident Insurance",
+                            "Death Insurance"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "TxezF5gB5uF80_MGII-P",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "Sfava",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Culture",
+                        "schemeCategory": [
+                            "Sports & Culture",
+                            "Social welfare & Empowerment"
+                        ],
+                        "schemeName": "Scheme For Financial Assistance For Veteran Artists",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "sfava",
+                        "briefDescription": "A pension scheme by MoC improves the financial and socio-economic status of the old artists and scholars who have contributed significantly in their specialized fields. Still, due to old age, they have to lead a miserable life or are in penury condition.",
+                        "tags": [
+                            "Artists",
+                            "Pension",
+                            "Veteran",
+                            "Culture",
+                            "Senior Citizen",
+                            "Financial Assistance"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "o6GzF5gBXu-iUKXqLXTE",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "PMKVY -STT",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Skill Development And Entrepreneurship",
+                        "schemeCategory": [
+                            "Business & Entrepreneurship",
+                            "Skills & Employment"
+                        ],
+                        "schemeName": "Pradhan Mantri Kaushal Vikas Yojana - Short Term Training",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "pmkvy-stt",
+                        "briefDescription": "A skill development scheme by Ministry of Skill Development and Entrepreneurship for school/college dropouts/unemployed aged 15-45 at PMKVY Training Centres (TCs). ",
+                        "tags": [
+                            "Placement",
+                            "Counselling",
+                            "Training",
+                            "Dropout",
+                            "Unemployed",
+                            "Skill",
+                            "Vikas",
+                            "Kaushal"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "TBezF5gB5uF80_MGII9G",
+                    "fields": {
+                        "beneficiaryState": [
+                            "All"
+                        ],
+                        "schemeShortTitle": "RMEWF-DISABLED CHILD",
+                        "level": "Central",
+                        "schemeFor": "Individual",
+                        "nodalMinistryName": "Ministry Of Defence",
+                        "schemeCategory": [
+                            "Social welfare & Empowerment"
+                        ],
+                        "schemeName": "RMEWF-Financial Assistance To 100% Disabled Child Of Ex-Servicemen",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "rmewf-disabled-child",
+                        "briefDescription": "A scheme to provide financial assistance to Ex-Servicemen or their widows for their 100% disabled child.",
+                        "tags": [
+                            "Ex-Servicemen",
+                            "Widow Of Ex-Servicemen",
+                            "Differently Abled"
+                        ]
+                    },
+                    "highlight": {}
+                },
+                {
+                    "id": "3ca0F5gB0AGc0F0iDzOE",
+                    "fields": {
+                        "beneficiaryState": [
+                            "Delhi"
+                        ],
+                        "schemeShortTitle": "FAMDPWOG",
+                        "level": "State",
+                        "schemeFor": "Individual",
+                        "schemeCategory": [
+                            "Social welfare & Empowerment",
+                            "Women and Child"
+                        ],
+                        "schemeName": "Financial Assistance For The Marriage Of Daughters Of Poor Widows And Orphan Girls",
+                        "schemeCloseDate": null,
+                        "priority": 1,
+                        "slug": "famdpwog",
+                        "briefDescription": "This is a welfare scheme by the GNCTD to provide financial assistance to poor widows for performing the marriage of their daughters and to provide financial assistance to the guardians including Homes/Institutions or foster parents of an orphan girl or an orphan girl for her marriage.",
+                        "tags": [
+                            "Financial Asisstance",
+                            "Marriage",
+                            "Widow",
+                            "Orphan",
+                            "Girl Child"
+                        ]
+                    },
+                    "highlight": {}
+                }
+            ],
+            "page": {
+                "total": 4638,
+                "totalPages": 464,
+                "pageNumber": 0,
+                "from": 0,
+                "size": 10
+            }
+        },
+        "sortedBy": "multiple_sort"
+    }
+}
