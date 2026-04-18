@@ -27,30 +27,7 @@ SancharSathi is an AI-powered assistant that helps Indian startups understand le
 
 ## 🔴 Full System Architecture
 
-```mermaid
-flowchart TD
-
-    A[Legal PDFs / Govt Websites]
-    B[Startup Opportunity Websites]
-
-    A --> C[Databricks Pipeline: Data Ingestion]
-    B --> D[Databricks Job: Daily Scraper]
-
-    C --> E[Databricks SQL / Unity Catalog]
-    D --> F[Databricks SQL / Unity Catalog]
-
-    E --> G[Embedding + Chunking Pipeline]
-    G --> H[Vector Index (FAISS)]
-
-    I[User Query] --> J[Databricks App / Streamlit]
-    J --> K[RAG Pipeline]
-
-    K --> H
-    H --> K
-
-    K --> L[LLM Inference]
-    L --> M[Response to User]
-```
+![Uploading mermaid-diagram.png…]()
 
 ---
 
