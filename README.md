@@ -186,11 +186,6 @@ Show me current startup schemes
 * Dashboard analytics
 * More datasets integration
 
----
-
-# 📜 License
-
-MIT License
 
 ---
 
