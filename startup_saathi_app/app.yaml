@@ -1,0 +1,11 @@
+command:
+  - "streamlit"
+  - "run"
+  - "app.py"
+  - "--server.headless=true"
+  - "--server.port=8000"
+  - "--server.address=0.0.0.0"
+
+env:
+  - name: SARVAM_API_KEY
+    value: "sk_91tpxj9e_HSFXUA7DLIsX6VPMxRWR41uY"
